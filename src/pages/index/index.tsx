@@ -16,7 +16,7 @@ export default function Index() {
         }}
       >
         <PickerViewColumn>
-          {["2022", "2022"].map((item) => (
+          {["2022", "2023"].map((item) => (
             <View key={item}>{item}年</View>
           ))}
         </PickerViewColumn>
